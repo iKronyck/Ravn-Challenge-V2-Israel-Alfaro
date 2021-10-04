@@ -1,0 +1,8 @@
+export const COLORS = {
+  RAVN_BLACK: '#121212',
+  TEXT_DARK: '#333333',
+  TEXT_LIGHT: '#828282',
+  TEXT_EMPHASIS: '#EC5757',
+  BASE_WHITE: '#FFFFFF',
+  BLACK_01: 'rgba(0, 0, 0, 0.1)',
+};
