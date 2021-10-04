@@ -9,16 +9,13 @@
  */
 
 import React from 'react';
-import {SafeAreaView, Text, View} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {RouterApp} from '@router';
 
-const App = () => {
-  return (
-    <SafeAreaView>
-      <View>
-        <Text>Hola</Text>
-      </View>
-    </SafeAreaView>
-  );
-};
+const App = () => (
+  <NavigationContainer>
+    <RouterApp />
+  </NavigationContainer>
+);
 
 export default App;
