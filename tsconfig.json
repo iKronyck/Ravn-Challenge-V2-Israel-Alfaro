@@ -18,7 +18,7 @@
       "@assets": ["assets"],
       "@components": ["components"],
       "@graphql": ["graphql"],
-      "@colors": ["colors"]
+      "@ui": ["ui"]
     },
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
