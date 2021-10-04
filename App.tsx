@@ -10,12 +10,16 @@
 
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
+import {ApolloProvider} from '@apollo/client';
 import {RouterApp} from '@router';
+import {client} from '@graphql';
 
 const App = () => (
-  <NavigationContainer>
-    <RouterApp />
-  </NavigationContainer>
+  <ApolloProvider client={client}>
+    <NavigationContainer>
+      <RouterApp />
+    </NavigationContainer>
+  </ApolloProvider>
 );
 
 export default App;
