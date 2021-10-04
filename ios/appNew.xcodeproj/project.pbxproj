@@ -41,11 +41,11 @@
 		6423831EA8574132BED9D8CC /* libPods-appNew.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appNew.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C97AB639B58BBB4B15BBE30 /* Pods-appNew-appNewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appNew-appNewTests.debug.xcconfig"; path = "Target Support Files/Pods-appNew-appNewTests/Pods-appNew-appNewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = appNew/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B039F3FBC8A4446B958BC99 /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SFPRODISPLAYREGULAR.OTF; path = ../src/assets/fonts/SFPRODISPLAYREGULAR.OTF; sourceTree = "<group>"; };
 		ABFE59519B596E51CEFDCCC0 /* libPods-appNew-appNewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appNew-appNewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A881CF5CF3F2B244570E2A /* Pods-appNew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appNew.debug.xcconfig"; path = "Target Support Files/Pods-appNew/Pods-appNew.debug.xcconfig"; sourceTree = "<group>"; };
 		D00AAFFCFCFDA5787532823F /* Pods-appNew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appNew.release.xcconfig"; path = "Target Support Files/Pods-appNew/Pods-appNew.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		9B039F3FBC8A4446B958BC99 /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYREGULAR.OTF"; path = "../src/assets/fonts/SFPRODISPLAYREGULAR.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +108,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		39959CA6EB31430C8E7546B0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B039F3FBC8A4446B958BC99 /* SFPRODISPLAYREGULAR.OTF */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,15 +160,6 @@
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		39959CA6EB31430C8E7546B0 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				9B039F3FBC8A4446B958BC99 /* SFPRODISPLAYREGULAR.OTF */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
