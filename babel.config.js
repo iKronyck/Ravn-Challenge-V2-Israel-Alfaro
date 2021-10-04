@@ -12,7 +12,7 @@ module.exports = {
           '@router': './src/router',
           '@components': './src/components',
           '@graphql': './src/graphql',
-          '@colors': './src/colors',
+          '@ui': './src/ui',
         },
       },
     ],
