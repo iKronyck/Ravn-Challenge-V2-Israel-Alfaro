@@ -6,3 +6,4 @@ export * from './DataCell/DataCell';
 export * from './SectionHeader/SectionHeader';
 export * from './PersonCell/PersonCell';
 export * from './ErrorBoundary/ErrorBoundary';
+export * from './PeopleList/PeopleList';
