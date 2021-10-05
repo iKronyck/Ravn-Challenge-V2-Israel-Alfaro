@@ -1,10 +1,12 @@
 import React from 'react';
 import {FlatList} from 'react-native';
 import {TPeopleList, TPeopleItem} from './PeopleList.type';
-import {PersonCell} from '@components';
+import {PersonCell, LoadingCell} from '@components';
 
 export const PeopleList: React.FC<TPeopleList> = ({
   onPressGoToPeopleDetail,
+  isLoadingMoreData,
+  onRefetchData,
   data,
 }) => {
   const renderItem = ({item: {id, name, information}}: TPeopleItem) => (
@@ -17,10 +19,13 @@ export const PeopleList: React.FC<TPeopleList> = ({
 
   return (
     <FlatList
-      bounces={false}
       data={data}
+      extraData={isLoadingMoreData}
       keyExtractor={item => item.id}
       renderItem={renderItem}
+      onEndReachedThreshold={0.1}
+      onEndReached={onRefetchData}
+      ListFooterComponent={isLoadingMoreData ? <LoadingCell /> : null}
     />
   );
 };

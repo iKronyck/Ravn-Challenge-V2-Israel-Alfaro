@@ -18,7 +18,6 @@ import {
   HttpLink,
 } from '@apollo/client';
 
-// TODO: Make a refactor to this, should be added to @graphql
 const client = new ApolloClient({
   link: new HttpLink({
     uri: 'https://swapi-graphql.netlify.app/.netlify/functions/index',

@@ -11,4 +11,6 @@ export type TPeopleItem = {
 export type TPeopleList = {
   data: TPeopleData[];
   onPressGoToPeopleDetail: (personId: string) => void;
+  onRefetchData: () => void;
+  isLoadingMoreData: boolean;
 };
