@@ -18,7 +18,8 @@
       "@assets": ["assets"],
       "@components": ["components"],
       "@graphql": ["graphql"],
-      "@ui": ["ui"]
+      "@ui": ["ui"],
+      "@hooks": ["hooks"],
     },
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,

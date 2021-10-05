@@ -13,6 +13,7 @@ module.exports = {
           '@components': './src/components',
           '@graphql': './src/graphql',
           '@ui': './src/ui',
+          '@hooks': './src/hooks',
         },
       },
     ],
