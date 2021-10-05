@@ -1,8 +1,3 @@
-export type TPeopleList = {
-  data: any[];
-  onPressGoToPeopleDetail: (personId: string) => void;
-};
-
 type TPeopleData = {
   id: string;
   name: string;
@@ -11,4 +6,9 @@ type TPeopleData = {
 
 export type TPeopleItem = {
   item: TPeopleData;
+};
+
+export type TPeopleList = {
+  data: TPeopleData[];
+  onPressGoToPeopleDetail: (personId: string) => void;
 };
