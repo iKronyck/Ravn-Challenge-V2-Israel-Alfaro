@@ -13,7 +13,7 @@ export const Header: React.FC<THeader> = ({title, onPressBack}) => (
     />
     <View style={styles.headerContainer}>
       {onPressBack !== undefined ? (
-        <Pressable style={styles.backIcon}>
+        <Pressable style={styles.backIcon} onPress={onPressBack}>
           <Image source={BackIcon} />
         </Pressable>
       ) : null}
