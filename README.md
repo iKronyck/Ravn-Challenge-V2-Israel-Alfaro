@@ -110,3 +110,7 @@ root
 - TypeScript
 - GraphQL
 - Apollo Client
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Ravn-Challenge-V2-Israel-Alfaro" id="counter">
+</p>
