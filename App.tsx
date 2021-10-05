@@ -11,11 +11,27 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {RouterApp} from '@router';
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  HttpLink,
+} from '@apollo/client';
+
+// TODO: Make a refactor to this, should be added to @graphql
+const client = new ApolloClient({
+  link: new HttpLink({
+    uri: 'https://swapi-graphql.netlify.app/.netlify/functions/index',
+  }),
+  cache: new InMemoryCache(),
+});
 
 const App = () => (
-  <NavigationContainer>
-    <RouterApp />
-  </NavigationContainer>
+  <ApolloProvider client={client}>
+    <NavigationContainer>
+      <RouterApp />
+    </NavigationContainer>
+  </ApolloProvider>
 );
 
 export default App;
